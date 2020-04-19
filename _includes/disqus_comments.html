@@ -1,11 +1,10 @@
-{%- if page.comments != false -%}
+{%- if page.comments != false and jekyll.environment == "production" -%}
 
   <div id="disqus_thread"></div>
   <script>
-  <!-- and jekyll.environment == "production" -% -->
     var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
+      this.page.url = 'calebmiller010.github.io';
+      this.page.identifier = '{{ absolute_url }}';
     };
 
     (function() {

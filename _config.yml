@@ -8,7 +8,7 @@ github_username: calebmiller010
 repository: "calebmiller010/sample-project-site"
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 
 disqus:
   shortname: disqus_r8Y42vnBgW
